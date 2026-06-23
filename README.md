@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/29262638/README.md)
 # Pyetro Schumann
 
 Software Development and Analysis student, currently building a foundation in web technologies and programming logic.
