@@ -1,7 +1,5 @@
-[README.md](https://github.com/user-attachments/files/29262516/README.md)
-## Hi there 👋
-
-<!--# Pyetro Schumann
+[README.md](https://github.com/user-attachments/files/29262638/README.md)
+# Pyetro Schumann
 
 Software Development and Analysis student, currently building a foundation in web technologies and programming logic.
 
@@ -34,17 +32,3 @@ Software Development and Analysis student, currently building a foundation in we
 ## Contact
 
 - GitHub: [@pyetroschumann18](https://github.com/pyetroschumann18)
-
-**pyetroschumann18/pyetroschumann18** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
