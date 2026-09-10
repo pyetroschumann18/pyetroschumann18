@@ -94,3 +94,67 @@ const pyetro = {
     src="https://skillicons.dev/icons?i=git,github,vscode,vercel,figma&theme=dark"
     alt="Git, GitHub, Visual Studio Code, Vercel and Figma"
   />
+</p>
+
+<!-- =========================
+     CURRENTLY BUILDING
+========================= -->
+
+## 💜 MOV Digital
+
+I work as a **Web Developer at MOV Digital**, building modern and conversion-focused digital experiences for small businesses and entrepreneurs.
+
+My work involves developing responsive websites, structuring frontend and backend solutions, improving UX/UI, integrating databases and automations, and helping turn business ideas into real digital products.
+
+**Web Development • Frontend • Backend • UX/UI • Conversion • Automation**
+
+<!-- =========================
+     CURRENTLY LEARNING
+========================= -->
+
+## 🧠 Currently Learning
+
+<p align="center">
+  Software Architecture • TypeScript • React • Astro<br/>
+  Backend Development • PostgreSQL • Supabase<br/>
+  Testing • Security • Performance • AI Engineering
+</p>
+
+<!-- =========================
+     GITHUB STATS
+========================= -->
+
+## 📊 GitHub Analytics
+
+<div align="center">
+  <img
+    width="49%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=pyetroschumann18&theme=github_dark&title_color=B27CF4&text_color=FFFFFF&bg_color=0D1117&border_color=0D1117&icon_color=B27CF4&animation=sequence&duration=3"
+    alt="Pyetro's GitHub statistics"
+  />
+  <img
+    width="49%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=pyetroschumann18&theme=github_dark&title_color=B27CF4&text_color=FFFFFF&bg_color=0D1117&border_color=0D1117&chart_color=B27CF4&animation=draw&duration=3.5"
+    alt="Most used languages by repository"
+  />
+</div>
+
+<br/>
+
+## 📈 Contribution Activity
+
+<p align="center">
+  <img
+    width="100%"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=pyetroschumann18&theme=github_dark&title_color=B27CF4&text_color=FFFFFF&bg_color=0D1117&border_color=0D1117&icon_color=B27CF4&chart_color=7C5CE7&animation=load&duration=4"
+    alt="Pyetro's GitHub contribution activity"
+  />
+</p>
+
+<br/>
+
+<!-- =========================
+     CONTACT
+========================= -->
+
+## 🌎 Let's Connect
