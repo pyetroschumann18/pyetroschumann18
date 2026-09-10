@@ -1,3 +1,191 @@
+<img width="1200" height="400" alt="hero" src="https://github.com/user-attachments/assets/df64bfff-16f2-4da9-b472-4b05efa44b35" />![Uploading hero.sv<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">Pyetro Schumann — Web Developer</title>
+  <desc id="desc">Animated dark purple developer banner with a terminal window, moving lights and code elements.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070A12" />
+      <stop offset="0.52" stop-color="#0D1117" />
+      <stop offset="1" stop-color="#11101D" />
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#584EDD" />
+      <stop offset="0.5" stop-color="#B27CF4" />
+      <stop offset="1" stop-color="#7C5CE7" />
+    </linearGradient>
+
+    <linearGradient id="shine" x1="-1" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0" />
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.5" />
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0" />
+    </linearGradient>
+
+    <radialGradient id="glowPurple">
+      <stop offset="0" stop-color="#B27CF4" stop-opacity="0.36" />
+      <stop offset="1" stop-color="#B27CF4" stop-opacity="0" />
+    </radialGradient>
+
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#B27CF4" stroke-width="0.7" stroke-opacity="0.08" />
+    </pattern>
+
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <clipPath id="frameClip">
+      <rect x="8" y="8" width="1184" height="384" rx="24" />
+    </clipPath>
+
+    <clipPath id="terminalClip">
+      <rect x="704" y="77" width="416" height="246" rx="16" />
+    </clipPath>
+
+    <style>
+      .font { font-family: "Segoe UI", Inter, Arial, sans-serif; }
+      .mono { font-family: "Cascadia Code", "Fira Code", Consolas, monospace; }
+
+      .float-a { animation: floatA 7s ease-in-out infinite; }
+      .float-b { animation: floatB 9s ease-in-out infinite; }
+      .pulse { animation: pulse 2.8s ease-in-out infinite; transform-origin: center; }
+      .blink { animation: blink 1s steps(2, end) infinite; }
+      .code-1 { animation: codeIn 8s ease-in-out infinite; }
+      .code-2 { animation: codeIn 8s 0.5s ease-in-out infinite; opacity: 0; }
+      .code-3 { animation: codeIn 8s 1s ease-in-out infinite; opacity: 0; }
+      .code-4 { animation: codeIn 8s 1.5s ease-in-out infinite; opacity: 0; }
+      .code-5 { animation: codeIn 8s 2s ease-in-out infinite; opacity: 0; }
+      .scan { animation: scan 5.5s linear infinite; }
+      .dash { stroke-dasharray: 12 10; animation: dash 14s linear infinite; }
+      .name { animation: nameIn 1.2s cubic-bezier(.2,.8,.2,1) both; }
+      .role { animation: nameIn 1.2s .25s cubic-bezier(.2,.8,.2,1) both; }
+      .status { animation: nameIn 1.2s .5s cubic-bezier(.2,.8,.2,1) both; }
+
+      @keyframes floatA {
+        0%, 100% { transform: translate(0, 0); }
+        50% { transform: translate(16px, -12px); }
+      }
+      @keyframes floatB {
+        0%, 100% { transform: translate(0, 0); }
+        50% { transform: translate(-18px, 16px); }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: .55; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.28); }
+      }
+      @keyframes blink { 50% { opacity: 0; } }
+      @keyframes codeIn {
+        0%, 5% { opacity: 0; transform: translateX(-12px); }
+        15%, 82% { opacity: 1; transform: translateX(0); }
+        92%, 100% { opacity: 0; transform: translateX(8px); }
+      }
+      @keyframes scan {
+        0% { transform: translateX(-560px); opacity: 0; }
+        12% { opacity: .7; }
+        65% { opacity: .35; }
+        100% { transform: translateX(1050px); opacity: 0; }
+      }
+      @keyframes dash { to { stroke-dashoffset: -220; } }
+      @keyframes nameIn {
+        from { opacity: 0; transform: translateY(18px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+        .code-2, .code-3, .code-4, .code-5 { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frameClip)">
+    <rect width="1200" height="400" fill="url(#background)" />
+    <rect width="1200" height="400" fill="url(#grid)" />
+
+    <circle class="float-a" cx="130" cy="82" r="185" fill="url(#glowPurple)" />
+    <circle class="float-b" cx="1050" cy="340" r="240" fill="url(#glowPurple)" opacity="0.55" />
+
+    <path class="dash" d="M-10 344 C235 272 337 446 612 342 S1000 260 1220 316" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.24" />
+
+    <g opacity="0.7">
+      <circle class="pulse" cx="94" cy="320" r="3" fill="#B27CF4" filter="url(#softGlow)" />
+      <circle class="pulse" cx="1128" cy="70" r="3" fill="#7C5CE7" filter="url(#softGlow)" style="animation-delay:.7s" />
+      <circle class="pulse" cx="641" cy="47" r="2.5" fill="#B27CF4" filter="url(#softGlow)" style="animation-delay:1.2s" />
+      <circle class="pulse" cx="532" cy="350" r="2.5" fill="#7C5CE7" filter="url(#softGlow)" style="animation-delay:1.8s" />
+    </g>
+
+    <g transform="translate(76 90)">
+      <g class="status">
+        <circle cx="8" cy="10" r="7" fill="#3FB950" opacity="0.2" />
+        <circle cx="8" cy="10" r="3.5" fill="#3FB950" />
+        <text x="24" y="15" class="mono" fill="#8B949E" font-size="14" letter-spacing="1.2">AVAILABLE TO BUILD</text>
+      </g>
+
+      <text x="0" y="92" class="font name" fill="#FFFFFF" font-size="61" font-weight="800" letter-spacing="-1.5">PYETRO</text>
+      <text x="0" y="151" class="font name" fill="url(#accent)" font-size="61" font-weight="800" letter-spacing="-1.5">SCHUMANN</text>
+
+      <g class="role">
+        <rect x="0" y="183" width="476" height="2" rx="1" fill="url(#accent)" />
+        <rect class="scan" x="0" y="180" width="90" height="8" fill="url(#shine)" />
+        <text x="0" y="222" class="mono" fill="#C9D1D9" font-size="18" letter-spacing="2.1">WEB DEVELOPER</text>
+        <text x="218" y="222" class="mono" fill="#6E7681" font-size="18">/</text>
+        <text x="244" y="222" class="mono" fill="#B27CF4" font-size="18" letter-spacing="1.2">DIGITAL PRODUCTS</text>
+      </g>
+    </g>
+
+    <g clip-path="url(#terminalClip)">
+      <rect x="704" y="77" width="416" height="246" rx="16" fill="#0A0D14" stroke="#30363D" />
+      <rect x="704" y="77" width="416" height="42" fill="#161B22" />
+      <circle cx="729" cy="98" r="5" fill="#FF5F57" />
+      <circle cx="747" cy="98" r="5" fill="#FEBC2E" />
+      <circle cx="765" cy="98" r="5" fill="#28C840" />
+      <text x="810" y="104" class="mono" fill="#6E7681" font-size="12">pyetro.ts</text>
+
+      <g class="mono" font-size="14">
+        <g class="code-1">
+          <text x="730" y="154" fill="#8B949E">01</text>
+          <text x="760" y="154" fill="#FF7B72">const</text>
+          <text x="808" y="154" fill="#D2A8FF">developer</text>
+          <text x="886" y="154" fill="#C9D1D9">= {</text>
+        </g>
+        <g class="code-2">
+          <text x="730" y="184" fill="#8B949E">02</text>
+          <text x="780" y="184" fill="#79C0FF">craft:</text>
+          <text x="835" y="184" fill="#A5D6FF">&quot;web&quot;</text>
+          <text x="883" y="184" fill="#C9D1D9">,</text>
+        </g>
+        <g class="code-3">
+          <text x="730" y="214" fill="#8B949E">03</text>
+          <text x="780" y="214" fill="#79C0FF">mindset:</text>
+          <text x="855" y="214" fill="#A5D6FF">&quot;product&quot;</text>
+          <text x="930" y="214" fill="#C9D1D9">,</text>
+        </g>
+        <g class="code-4">
+          <text x="730" y="244" fill="#8B949E">04</text>
+          <text x="780" y="244" fill="#79C0FF">quality:</text>
+          <text x="850" y="244" fill="#A5D6FF">true</text>
+          <text x="885" y="244" fill="#C9D1D9">,</text>
+        </g>
+        <g class="code-5">
+          <text x="730" y="274" fill="#8B949E">05</text>
+          <text x="760" y="274" fill="#C9D1D9">};</text>
+          <text x="730" y="304" fill="#8B949E">06</text>
+          <text x="760" y="304" fill="#B27CF4">build</text>
+          <text x="800" y="304" fill="#C9D1D9">();</text>
+          <rect class="blink" x="836" y="290" width="8" height="18" fill="#B27CF4" />
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <rect x="8" y="8" width="1184" height="384" rx="24" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.72" />
+</svg>
+g…]()
+
 <!--
   Pyetro Schumann — GitHub Profile README
   Keep the assets/hero.svg file beside this README when publishing.
