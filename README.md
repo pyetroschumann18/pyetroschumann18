@@ -94,15 +94,13 @@ const pyetro = {
      CURRENTLY BUILDING
 ========================= -->
 
-🚀 Currently Building
-🚗 Afinity-Car
-Digital ecosystem for a vehicle intermediation business.
-Website • Lead Generation • CRM • Automation • UX/UI
+### 💜 MOV Digital
 
-💜 MOV Digital
-Web development initiative focused on creating digital experiences for small businesses and entrepreneurs.
-Web Development • UX/UI • Conversion • Automation
+I work as a **Web Developer at MOV Digital**, building modern and conversion-focused digital experiences for small businesses and entrepreneurs.
 
+My work involves developing responsive websites, structuring frontend and backend solutions, improving UX/UI, integrating databases and automations, and helping turn business ideas into real digital products.
+
+**Web Development • Frontend • Backend • UX/UI • Conversion • Automation**
 <!-- =========================
      CURRENTLY LEARNING
 ========================= -->
@@ -120,44 +118,34 @@ Testing • Security • Performance • AI Engineering
      GITHUB STATS
 ========================= -->
 
-📊 GitHub Analytics
+## 📊 GitHub Analytics
+
 <div align="center">
 
 <img
-  height="175"
-  src="https://github-readme-stats.vercel.app/api?username=pyetroschumann18&show_icons=true&hide_border=true&bg_color=0D1117&title_color=B27CF4&icon_color=B27CF4&text_color=FFFFFF&ring_color=584EDD"
+  width="49%"
+  src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=pyetroschumann18&theme=github_dark&title_color=B27CF4&text_color=FFFFFF&bg_color=0D1117&border_color=0D1117&icon_color=B27CF4&animation=load&duration=2"
 />
+
 <img
-  height="175"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=pyetroschumann18&layout=compact&hide_border=true&bg_color=0D1117&title_color=B27CF4&text_color=FFFFFF"
+  width="49%"
+  src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=pyetroschumann18&theme=github_dark&title_color=B27CF4&text_color=FFFFFF&bg_color=0D1117&border_color=0D1117&chart_color=B27CF4&animation=draw&duration=2"
 />
+
 </div>
 
+<br/>
 
-<!-- =========================
-     STREAK
-========================= -->
+## 📈 Contribution Activity
 
-🔥 Coding Streak
-<p align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=pyetroschumann18&theme=dark&hide_border=true&background=0D1117&ring=B27CF4&fire=584EDD&currStreakLabel=B27CF4"
-  />
-</p>
-
-
-<!-- =========================
-     ACTIVITY GRAPH
-========================= -->
-
-📈 Contribution Activity
 <p align="center">
   <img
     width="100%"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=pyetroschumann18&bg_color=0D1117&color=B27CF4&line=7C5CE7&point=FFFFFF&area=true&area_color=584EDD&hide_border=true"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=pyetroschumann18&theme=github_dark&title_color=B27CF4&text_color=FFFFFF&bg_color=0D1117&border_color=0D1117&icon_color=B27CF4&chart_color=7C5CE7&animation=draw&duration=2.5"
   />
 </p>
 
+<br/>
 
 <!-- =========================
      CONTACT
