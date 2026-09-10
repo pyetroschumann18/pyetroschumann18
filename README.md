@@ -30,9 +30,9 @@
      ABOUT
 ========================= -->
 
-## 👨‍💻 About Me
+👨‍💻 About Me
 
-```ts
+ts
 const pyetro = {
   role: "Web Developer",
   location: "Brazil 🇧🇷",
